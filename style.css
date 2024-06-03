@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: gray;
+}
+img{
+    width: 200px;
+    border-radius: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+     margin: 100px 500px;
+     padding-top: 20px;
+     padding-bottom: 60px;
+     padding-left: 20px;
+     padding-right: 20px;
+     background-color: bisque;
+     border-radius: 15px;
+}
+.content .word h3{
+    text-align: center;
+    /* line-height: 1.5rem; */
+    font-size: small;
+}
+.content .word p{
+    text-align: center;
+    font-size: 11px; 
+
+}
