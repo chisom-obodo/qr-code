@@ -4,32 +4,39 @@
     box-sizing: border-box;
     
 }
-body{
-    background-color: gray;
-}
-img{
-    width: 200px;
-    border-radius: 15px;
-}
-.content{
+body {
     display: flex;
-    flex-direction: column;
-     text-align: center;
-     margin: 100px 500px;
-     padding-top: 20px;
-     padding-bottom: 60px;
-     padding-left: 20px;
-     padding-right: 20px;
-     background-color: bisque;
-     border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2f2f2f;
+    margin: 0;
 }
-.content .word h3{
-    text-align: center;
-    /* line-height: 1.5rem; */
-    font-size: small;
-}
-.content .word p{
-    text-align: center;
-    font-size: 11px; 
 
+.content {
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
 }
+
+.img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.word h1 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.word p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+
