@@ -8,32 +8,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #2f2f2f;
     margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    box-sizing: border-box
 }
 
 .content {
-    background-color: bisque;
+    background-color: #f8e7d0;
     border-radius: 15px;
     padding: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .img img {
     width: 100%;
+    max-width: 300px;
     border-radius: 10px;
+    height: auto;
 }
 
 .word h1 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 0 10px;
     color: #333;
 }
 
 .word p {
-    font-size: 14px;
+    font-size: 12px;
     color: #555;
 }
 
